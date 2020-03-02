@@ -1,0 +1,122 @@
+*{
+    font-size: 11px;
+    font-weight: bold;
+}
+.top-bar{
+    padding: 20px 40px 0px 40px;
+    background-color: white;
+}
+.top-bar-item{
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top-bar-item img{
+    height: 50px;
+}
+.nav-bar{
+    padding: 10px 40px 10px 40px;
+    background-color: powderblue;
+    background-color: #b0bbbf;
+}
+.nav-bar-item {
+    padding: 0px 0px 10px 0px;
+    border-left: 2px solid grey;
+    text-align: center;
+}
+.last-nav-bar-item{
+    border-right: 2px solid grey;
+}
+.about-bar{
+    padding: 20px 40px 0px 40px;
+    background-color: #292929;
+}
+.about-bar-item {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.about-bar-des{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.about-bar-title{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fdc22b;
+}
+.about-bar-content{
+    padding: 15px;
+    background: #a5a3a3;
+    height: 100%;
+    color: white;
+}
+.more-info-bar{
+    padding: 20px 40px 20px 40px;
+    background-color: #292929;
+}
+.more-info-bar-item{
+    padding-left: 0px;
+    color: #fcb614;
+}
+.category-bar{
+    padding: 0px 40px 20px 40px;
+    background-color: #292929;
+}
+.category-bar-flex{
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #292929;
+
+}
+.category-bar-item{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: #292929;
+}
+.category-bar-title{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #fdcb49;
+}
+.category-bar-des{
+    padding: 15px 20px 0px 20px;
+    background-color: #fff0ca;
+}
+.category-bar-img img{
+    width: 100%;
+}
+.category-bar-read-more{
+    padding: 20px 20px 20px 20px;
+    background-color: #fff0ca;
+    display: flex;
+    justify-content: flex-end;
+}
+.category-bar-button{
+    right: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #ffe600;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 110px;
+}
+@media only screen and (max-width: 767px) {
+    .nav-bar-item {
+        border: none;
+        border-bottom: 2px solid black;
+        padding-top: 10px;
+    }
+    .about-bar-des{
+        padding-left: 0px;
+    }
+    .last-nav-bar-item{
+        border-bottom: none
+    }
+
+}
